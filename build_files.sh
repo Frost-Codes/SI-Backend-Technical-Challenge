@@ -4,7 +4,7 @@
 # Install dependencies
 pip3 install -r requirements.txt
 
-export DJANGO_SETTINGS_MODULE=cotProject.settings
+export DJANGO_SETTINGS_MODULE=SITechnicalChallenge.settings
 
 # Collect static files
 python3 manage.py collectstatic --noinput --settings=SITechnicalChallenge.settings
@@ -12,6 +12,4 @@ python3 manage.py collectstatic --noinput --settings=SITechnicalChallenge.settin
 # Collect static files
 python3 manage.py collectstatic --noinput
 
-# Copy media files
-cp -R media staticfiles_build/media
 
