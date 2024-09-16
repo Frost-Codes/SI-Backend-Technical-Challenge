@@ -68,6 +68,8 @@ MIDDLEWARE = [
 
     # Third Party
     'social_django.middleware.SocialAuthExceptionMiddleware'
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+
 ]
 
 ROOT_URLCONF = 'SITechnicalChallenge.urls'
