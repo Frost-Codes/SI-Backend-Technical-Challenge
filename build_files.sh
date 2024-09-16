@@ -2,7 +2,7 @@
 
 
 # Install dependencies
-python3 -m pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 
 export DJANGO_SETTINGS_MODULE=SITechnicalChallenge.settings
 
