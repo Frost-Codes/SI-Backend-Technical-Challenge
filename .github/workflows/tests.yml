@@ -41,5 +41,7 @@ jobs:
           africastalking_username: ${{ secrets.AFRICASTALKING_USERNAME }}
           africastalking_api_key: ${{ secrets.AFRICASTALKING_API_KEY }}
           sender: ${{ secrets.SENDER }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          DEBUG: ${{ secrets.DEBUG }}
         run: |
           python manage.py test
