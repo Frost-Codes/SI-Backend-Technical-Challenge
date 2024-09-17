@@ -38,5 +38,8 @@ jobs:
           POSTGRES_PASSWORD: postgres
           POSTGRES_HOST: postgres
           POSTGRES_PORT: 5432
+          africastalking_username: ${{ secrets.AFRICASTALKING_USERNAME }}
+          africastalking_api_key: ${{ secrets.AFRICASTALKING_API_KEY }}
+          sender: ${{ secrets.SENDER }}
         run: |
           python manage.py test
