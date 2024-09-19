@@ -32,9 +32,12 @@ The API also use `Swagger UI` to generate interactive API documentation that let
 5. Run the server `python manage.py runserver`
 
 ### Authentication
-This API uses OAuth2 authentication via OpenID Connect. To access protected routes, you must include the access token in the Authorization header:
 
-    Authorization: Bearer <your-token>
+To authenticate visit https://si-backend-technical-challenge.vercel.app/api/v1/auth/google-auth (Google OAuth2). After authentication customers are redirected back to the API UI.
+
+The API uses OAuth2 authentication via OpenID Connect. To access protected routes, you must include the access token in the Authorization header:
+
+    Authorization: Bearer <your-access-token>
 
   ### API Endpoints
 
