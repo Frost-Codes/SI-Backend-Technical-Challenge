@@ -40,6 +40,8 @@ The API uses OAuth2 authentication via OpenID Connect. To access protected route
     Authorization: Bearer <your-access-token>
 
   ### API Endpoints
+  
+  To execute a request on the UI, click on any API enpoint then `try it out` button on the right, enter required fields then click on execute
 
   ![Screenshot 2024-09-19 223810](https://github.com/user-attachments/assets/4b64e310-32bb-4abd-896c-d1ec16f7d447)
 
@@ -52,6 +54,8 @@ The API uses OAuth2 authentication via OpenID Connect. To access protected route
 #### Order
 1. **GET** `/order` Returns all the orders for the authenticated customer
 2. **POST** `/order` Creates a new order and sends an SMS notification to the customer
+
+![Screenshot 2024-09-21 082407](https://github.com/user-attachments/assets/150dedce-7725-4219-b1f1-5d88ddbd595b)
 
 
 ### Testing
