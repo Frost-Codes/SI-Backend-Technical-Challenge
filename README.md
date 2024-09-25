@@ -1,7 +1,7 @@
 # A simple REST API built using Django Rest Framework
 Backend technical challenge by Savannah Informatics
 
-This API allows management of  customers and their orders, provides authentication via OpenID Connect, and supports SMS alerts through Africa's Talking SMS gateway. The API is live at https://si-backend-technical-challenge.vercel.app
+This API allows management of  customers and their orders, provides authentication via OpenID Connect and supports SMS alerts through Africa's Talking SMS gateway. The API is live at https://si-backend-technical-challenge.vercel.app
 
 ![Screenshot 2024-09-19 222011](https://github.com/user-attachments/assets/29f32919-1464-4e26-ba73-1a5ff03e2c79)
 
