@@ -6,7 +6,7 @@ This API allows users to manage customers and their orders, provids authenticati
 ![Screenshot 2024-09-19 222011](https://github.com/user-attachments/assets/29f32919-1464-4e26-ba73-1a5ff03e2c79)
 
 ### Overview
-This API enables CRUD operations for customers and their orders. Authentication is implemented via Google OAuth2 using `social-auth-app-django`. The API also integrates with Africa's Talking for sending SMS alerts.
+This API enables CRUD operations for customers and their orders. Authentication is implemented via Google OAuth2 using `social-auth-app-django`. The API integrates with Africa's Talking for sending SMS alerts.
 The API also use `Swagger UI` to generate interactive API documentation that lets users try out the API calls directly in the browser
 
 ### Features
