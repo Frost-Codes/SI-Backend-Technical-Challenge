@@ -6,8 +6,8 @@ This API allows users to manage customers and their orders, provids authenticati
 ![Screenshot 2024-09-19 222011](https://github.com/user-attachments/assets/29f32919-1464-4e26-ba73-1a5ff03e2c79)
 
 ### Overview
-This API enables CRUD operations for customers and their orders. Authentication is implemented via Google OAuth2 using `social-auth-app-django`. The API integrates with Africa's Talking for sending SMS alerts.
-The API also use `Swagger UI` to generate interactive API documentation that lets users try out the API calls directly in the browser
+This API enables CRUD operations for customers and their orders. Authentication is implemented via Google OAuth2 using `social-auth-app-django`.
+`Swagger UI` is used to generate interactive API documentation that lets users try out API calls directly in the browser
 
 ### Features
 1. CRUD operations for customers and orders
@@ -17,7 +17,7 @@ The API also use `Swagger UI` to generate interactive API documentation that let
 
 ### Getting started
 #### Prerequisites
-1. Python 3.x
+1. Python 3.9
 2. Django
 3. Django REST Framework
 4. OpenID Connect provider
