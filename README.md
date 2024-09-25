@@ -63,6 +63,14 @@ To run the tests, execute:
 
     python manage.py test
 
+To check test coverage, run:
+
+1. `coverage run --source='.' manage.py test`
+2. `coverage report`
+3. `coverage html` (generates an html report of the code coverage)
+
+   The project has a code coverage report average of 95%
+
 ### Contributing
     1. Fork the repo
     2. Create a feature branch
