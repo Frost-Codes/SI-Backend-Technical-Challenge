@@ -3,7 +3,7 @@ from rest_framework import generics, permissions, status
 from rest_framework.response import Response
 from rest_framework import serializers
 
-from .utils import SendSMs, SMSThread
+from .utils import SendSMs
 from .models import Order
 from .serializers import OrderSerializer
 
@@ -49,9 +49,7 @@ class OrderAPIView(generics.GenericAPIView):
         to_send = SendSMs(f"You have ordered {item} for Ksh {amount} successfully",
                           [request.user.phone_number])
 
-        # to_send.send()
-
-        SMSThread(sms=to_send).start()  # using thread to send sms
+        to_send.send()
 
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
